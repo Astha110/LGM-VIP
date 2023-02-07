@@ -1,0 +1,28 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    padding: 150px 120px;
+    background-color: #6b5757;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    height: 200x;
+    margin: 20px 40px;
+    box-shadow: 0 5px 10px rgba(5, 6, 7, 0.705);
+    background: #c3b1b1;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(15, 15, 9, 0.753);
+    transform: scale(1);
+    background: rgb(191, 191, 117);
+    cursor: pointer;
+}
+.details p {
+    font-size: 15px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
